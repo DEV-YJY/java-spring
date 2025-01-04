@@ -24,6 +24,7 @@ public class MemberService {
 	 * member sign in
 	 */
 	public Long join(Member member)	{
+
 		validateExistingMember(member);
 		memberRepository.save(member);
 		return member.getId();

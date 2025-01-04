@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import hello_spring.demo.aop.TimeTraceAop;
 import hello_spring.demo.repository.JdbcTemplateMemberRepository;
 import hello_spring.demo.repository.JpaMemberRepository;
 import hello_spring.demo.repository.MemberRepository;
